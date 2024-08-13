@@ -12,6 +12,37 @@
       <h1>Sign Up to Foster a Pet</h1>
       <img src="assets/dog.png" alt="Cute Dog Looking Over Form" width="40%">
     </header>
+    <form>
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" placeholder="Rick Pham">
+        <label for="dob">Date Of Birth</label>
+        <input type="date" id="dob">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="example@domain.com">
+        <label for="pw">Password</label>
+        <input type="password" id="pw" placeholder="Enter your password">
+        <label for="numb">Number of Pets</label>
+        <input type="number" id="numb" min="0">
+        <h4>Have you fostered before?<h4>
+        <label for="yes">
+            <input type="radio" id="yes" name="isFostered">Yes</input>
+        </label>
+        <label for="no">
+            <input type="radio" id="no" name="isFostered">No</input>
+        </label>
+        <h4>Which of these apply to your home?</h4>
+        <label for="apt">
+            <input type="checkbox" id="apt" name="apt"> Apartment</input>
+        </label>
+        <label for="child">
+            <input type="checkbox" id="child" name="apt"> Children</input>
+        </label>
+        <label for="yard">
+            <input type="checkbox" id="yard" name="yard"> Yard</input>
+        </label>
+        <input type="submit" value="Sign Up!">
+    </form>
+    
         <table>
             <thead>
                 <tr>
@@ -45,10 +76,6 @@
                     <td colspan="3">Long-Haired Dachshund</td>
                 </tr>
             </tbody>
-                
-                
-            
-            
         </table>
   </body>
 </html>
